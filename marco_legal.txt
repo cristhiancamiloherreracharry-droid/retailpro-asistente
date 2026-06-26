@@ -1,0 +1,341 @@
+MARCO NORMATIVO INTEGRAL
+RetailPro
+Gobierno Corporativo, Tecnología, Seguridad y Operación
+Versión: 1.0 | Estado: Documento base corporativo | Aplicación: Todas las áreas, sedes, canales digitales, puntos de venta, colaboradores, contratistas y proveedores críticos de RetailPro.
+Propósito para prueba de concepto LLM. Este documento está diseñado como una fuente extensa de conocimiento normativo interno. Cada capítulo contiene reglas, obligaciones, criterios de decisión, evidencias, responsables y controles para que un modelo de lenguaje pueda responder preguntas sobre gobierno, tecnología, seguridad, operación retail, contratación, riesgos, cumplimiento e indicadores de RetailPro.
+CAPÍTULO 1. Gobierno Corporativo
+Objetivo. Establecer las reglas de dirección, control, supervisión, transparencia, rendición de cuentas y toma de decisiones de RetailPro, garantizando que la organización opere bajo principios éticos, legales, tecnológicos, financieros y operativos adecuados.
+Alcance. Este marco aplica a la Junta Directiva, Gerencia General, comités corporativos, gerencias, colaboradores, contratistas, proveedores, aliados tecnológicos, operadores logísticos, personal temporal y cualquier tercero que procese información, preste servicios o actúe en nombre de RetailPro.
+Marco legal y de referencia. RetailPro adoptará como referencias mínimas la legislación comercial, laboral, tributaria, de protección al consumidor, protección de datos personales, comercio electrónico, propiedad intelectual, seguridad y salud en el trabajo, normas contables aplicables, lineamientos de la Superintendencia de Industria y Comercio, buenas prácticas de ISO/IEC 27001:2022, ISO 22301, ISO 31000, COBIT, ITIL, NIST Cybersecurity Framework y estándares PCI DSS cuando se procesen tarjetas de pago.
+Definiciones. Gobierno corporativo: sistema mediante el cual RetailPro es dirigida y controlada. Riesgo: evento incierto que puede afectar objetivos. Control: medida preventiva, detectiva o correctiva. Activo de información: dato, sistema, documento, proceso o infraestructura con valor para la organización. Conflicto de interés: situación en la que un interés personal, familiar, económico o externo puede influir indebidamente en una decisión corporativa.
+•	Principios corporativos: legalidad, transparencia, integridad, responsabilidad, trazabilidad, segregación de funciones, protección de activos, orientación al cliente, continuidad operacional, mejora continua, seguridad por diseño y rendición de cuentas.
+•	Modelo de gobierno: la Junta Directiva define lineamientos estratégicos; la Gerencia General ejecuta; los comités especializados supervisan riesgos, auditoría, contratación y ciberseguridad; las gerencias operan procesos; auditoría valida cumplimiento.
+•	Gestión documental: toda política, procedimiento, matriz, acta, contrato, informe o evidencia deberá tener propietario, versión, fecha, aprobador, clasificación, vigencia y repositorio autorizado.
+•	Toma de decisiones: las decisiones relevantes deberán documentarse con justificación, riesgos, impacto financiero, responsables, aprobaciones, evidencias y seguimiento.
+Rol	Responsabilidades principales
+Junta Directiva	Aprobar estrategia, presupuesto, apetito de riesgo, políticas, inversiones estratégicas y supervisar resultados.
+Gerencia General	Ejecutar la estrategia, representar legalmente a la compañía, dirigir gerencias, aprobar planes operativos y gestionar crisis.
+CISO / Seguridad	Diseñar controles de seguridad, gestionar incidentes, monitorear riesgos tecnológicos y reportar al comité correspondiente.
+Auditoría Interna	Evaluar independencia, cumplimiento, eficacia de controles, hallazgos y planes de mejora.
+Dueños de proceso	Gestionar riesgos, indicadores, controles, evidencias, continuidad y cumplimiento operativo.
+Niveles de autoridad. Las aprobaciones se dividirán en niveles: operativo, gerencial, comité y Junta Directiva. Todo gasto, contratación, excepción de seguridad, cambio crítico, inversión, adquisición, baja de activo, acceso privilegiado o modificación de política deberá contar con aprobación proporcional al riesgo, monto e impacto.
+Gestión de conflictos de interés. Todo colaborador, directivo, proveedor o tercero deberá declarar conflictos reales, potenciales o aparentes antes de participar en decisiones. La omisión, falsedad o participación indebida podrá generar medidas disciplinarias, contractuales o legales.
+Gestión de riesgos empresariales. RetailPro identificará, analizará, evaluará, tratará y monitoreará riesgos estratégicos, financieros, operativos, tecnológicos, legales, reputacionales, de seguridad, continuidad, fraude, proveedores y cumplimiento. Cada riesgo deberá tener dueño, causa, consecuencia, controles, valoración inherente, valoración residual y plan de tratamiento.
+Seguimiento, auditoría y cumplimiento. Los indicadores serán revisados mensualmente por los dueños de proceso y trimestralmente por comités. Auditoría interna evaluará la efectividad de controles y auditoría externa validará información financiera, tecnológica o regulatoria según aplique. El incumplimiento generará planes de acción con responsable, fecha objetivo y evidencia de cierre.
+Gestión ética y canal de denuncias. RetailPro mantendrá un canal confidencial para reportar fraude, corrupción, acoso, conflicto de interés, uso indebido de información, incumplimientos de seguridad, manipulación de inventarios, irregularidades de caja o cualquier conducta contraria al código de ética. Se prohíben represalias contra denunciantes de buena fe.
+1.	Norma GC-01: Toda decisión estratégica deberá estar alineada con el plan corporativo vigente, el apetito de riesgo aprobado y los objetivos financieros, operativos, tecnológicos y reputacionales de RetailPro.
+2.	Norma GC-02: Ningún directivo podrá aprobar operaciones en las que exista conflicto de interés real, potencial o aparente sin declaración previa y evaluación independiente.
+3.	Norma GC-03: Toda política corporativa deberá tener propietario, fecha de emisión, versión, responsable de revisión, autoridad aprobadora, alcance, excepciones permitidas y mecanismo de divulgación.
+4.	Norma GC-04: Las actas de Junta, comités y reuniones decisorias deberán conservar acuerdos, responsables, fechas compromiso, votos salvados, riesgos evaluados y evidencias revisadas.
+5.	Norma GC-05: Los riesgos empresariales deberán revisarse mínimo trimestralmente y actualizarse cuando ocurra un incidente, cambio regulatorio, cambio tecnológico, apertura de tienda, cambio de proveedor crítico o variación relevante del negocio.
+6.	Norma GC-06: Todo indicador corporativo deberá tener fórmula, fuente de datos, periodicidad, meta, umbral de alerta, responsable, dueño de proceso y plan de acción cuando se incumpla.
+7.	Norma GC-07: Auditoría interna tendrá independencia funcional y no podrá auditar procesos sobre los cuales haya tenido responsabilidad operativa directa durante los últimos doce meses.
+8.	Norma GC-08: El canal de denuncias deberá permitir reportes confidenciales, anónimos cuando la ley lo permita, trazabilidad de investigación, protección contra represalias y cierre documentado.
+9.	Norma GC-09: Toda excepción a políticas deberá tener justificación, análisis de riesgo, controles compensatorios, aprobador autorizado, fecha de vencimiento y revisión periódica.
+10.	Norma GC-10: La Gerencia General deberá reportar a la Junta Directiva resultados, riesgos, cumplimiento, incidentes críticos, ejecución presupuestal, proyectos estratégicos y desviaciones relevantes.
+CAPÍTULO 2. Organigrama Ejecutivo
+Junta Directiva. Máximo órgano de dirección estratégica. Sus funciones incluyen aprobar presupuesto anual, proyectos estratégicos, adquisiciones, inversiones, estrategia TI, estrategia de seguridad, políticas corporativas, apetito de riesgo, planes de continuidad, endeudamiento relevante, apertura o cierre de sedes, nombramiento de alta dirección, evaluación de resultados, revisión de indicadores financieros, tecnológicos, comerciales, operativos y de cumplimiento.
+Gerencia General. Responsable de ejecutar la estrategia, representar legalmente a RetailPro, aprobar contrataciones, inversiones menores, planes operativos, presupuesto por área, gestión de crisis, supervisión de gerencias, presentación de resultados, cumplimiento regulatorio, relación con autoridades, priorización de proyectos y protección de la reputación corporativa.
+Comité de Ciberseguridad. Sus funciones incluyen aprobar excepciones de seguridad, gestionar incidentes, aprobar riesgos tecnológicos, hacer seguimiento de vulnerabilidades, aprobar controles, supervisar continuidad tecnológica, revisar proveedores tecnológicos, monitorear auditorías, priorizar remediaciones, evaluar amenazas, validar arquitectura segura, aprobar campañas de concientización, revisar accesos privilegiados, evaluar cumplimiento de políticas, validar planes de respuesta y reportar riesgos relevantes a la alta dirección.
+Comité de Riesgos. Funciones: definir metodología de riesgos, revisar mapa de riesgos, aprobar tratamientos, evaluar riesgo residual, monitorear KRIs, revisar eventos materializados, priorizar riesgos críticos, validar apetito y tolerancia, evaluar concentración de proveedores, revisar fraude interno, analizar pérdidas operativas, revisar riesgos de caja, inventario, logística, ciberseguridad, crédito, reputación, legal, laboral, continuidad, seguridad física, proyectos, cumplimiento, datos personales, comercio electrónico y terceros; aprobar planes de mitigación y elevar riesgos críticos a Junta Directiva.
+Comité de Auditoría. Supervisa auditorías internas y externas, revisa estados financieros, evalúa controles internos, aprueba plan anual de auditoría, revisa hallazgos, monitorea planes de acción, valida independencia del auditor, revisa denuncias relevantes, evalúa cumplimiento normativo, verifica gestión documental, revisa riesgos de fraude, monitorea controles de caja e inventario y reporta a la Junta Directiva.
+Comité de Contratación. Evalúa necesidades de contratación, términos de referencia, proveedores, conflictos de interés, debida diligencia, capacidad financiera, experiencia, riesgos, cumplimiento, cláusulas de confidencialidad, SLA, penalidades, garantías, precios, renovaciones, terminaciones, desempeño y criticidad del proveedor.
+1.	Norma OE-01: La Junta Directiva será responsable de aprobar presupuesto anual, inversiones estratégicas, endeudamiento relevante, apetito de riesgo, apertura o cierre de líneas de negocio y políticas corporativas de alto impacto.
+2.	Norma OE-02: La Gerencia General será responsable de ejecutar la estrategia, coordinar gerencias, representar legalmente a RetailPro, declarar crisis corporativas y elevar asuntos críticos a la Junta Directiva.
+3.	Norma OE-03: El Comité de Ciberseguridad deberá sesionar mínimo mensualmente y extraordinariamente ante incidentes críticos, exposición de datos, indisponibilidad tecnológica o vulnerabilidades de severidad crítica.
+4.	Norma OE-04: El Comité de Riesgos deberá mantener un mapa consolidado de riesgos y exigir planes de tratamiento para riesgos con nivel residual alto o crítico.
+5.	Norma OE-05: El Comité de Auditoría deberá revisar hallazgos abiertos, vencidos, reincidentes y críticos, y podrá solicitar planes de remediación inmediatos a cualquier área.
+6.	Norma OE-06: El Comité de Contratación deberá validar evaluación técnica, financiera, jurídica, reputacional, de seguridad y continuidad antes de contratar proveedores críticos.
+7.	Norma OE-07: Ningún comité podrá aprobar asuntos fuera de su mandato salvo delegación expresa documentada por la Junta Directiva o Gerencia General.
+8.	Norma OE-08: Toda decisión de comité deberá quedar soportada en acta, con quórum, asistentes, documentos revisados, análisis de riesgos, decisión, responsable y fecha de seguimiento.
+9.	Norma OE-09: Las funciones ejecutivas no podrán concentrarse en una sola persona cuando impliquen autorización, ejecución y control de la misma transacción.
+10.	Norma OE-10: La estructura organizacional deberá revisarse anualmente para verificar segregación de funciones, cobertura de riesgos y suficiencia de recursos.
+CAPÍTULO 3. Gobierno de Datos
+Clasificación	Ejemplos	Controles mínimos
+Pública	Publicidad, catálogos, horarios, información institucional autorizada.	Sin restricciones especiales, validación previa de comunicaciones externas.
+Interna	Procedimientos, manuales, organigramas, comunicaciones internas.	Acceso autenticado, uso interno, prohibida la divulgación no autorizada.
+Confidencial	Estados financieros, contratos, estrategias, precios, reportes gerenciales.	Cifrado, control de acceso, registro de auditoría, aprobación de propietario.
+Sensible	Datos personales, tarjetas, nómina, salud ocupacional, biometría, información bancaria.	AES-256, TLS 1.3, MFA obligatorio, DLP, tokenización, mascaramiento, backups cifrados, retención limitada.
+Reglas de gobierno de datos. Todo dato deberá tener propietario, finalidad, base legal, ubicación, periodo de retención, clasificación, controles, responsables de tratamiento y mecanismos de eliminación segura. Los datos personales se tratarán bajo autorización, finalidad, necesidad, circulación restringida, seguridad, confidencialidad y derechos del titular.
+1.	Norma GD-01: Todo conjunto de datos deberá tener dueño de negocio, custodio técnico, clasificación, finalidad, periodo de retención, ubicación y base de tratamiento.
+2.	Norma GD-02: Los datos sensibles solo podrán ser tratados cuando exista autorización, obligación legal, necesidad operacional justificada o excepción permitida por la normativa aplicable.
+3.	Norma GD-03: La información confidencial y sensible deberá cifrarse en tránsito y en reposo, limitarse por roles y registrarse en bitácoras auditables.
+4.	Norma GD-04: Se prohíbe copiar datos sensibles a dispositivos personales, correos no corporativos, carpetas públicas, mensajería no autorizada o repositorios sin control de acceso.
+5.	Norma GD-05: Todo acceso a datos de clientes, empleados, tarjetas, nómina, biometría o información bancaria deberá estar justificado por función laboral y aprobado por el dueño del dato.
+6.	Norma GD-06: Los datos deberán eliminarse, anonimizarse o archivarse al vencer el periodo de retención, salvo obligación legal o instrucción de conservación.
+7.	Norma GD-07: Las transferencias de información a terceros requerirán contrato, NDA, cláusulas de tratamiento de datos, controles de seguridad, finalidad específica y evaluación de riesgo.
+8.	Norma GD-08: Los reportes analíticos deberán usar datos anonimizados o agregados cuando no sea necesario identificar personas.
+9.	Norma GD-09: Todo incidente de datos personales deberá reportarse de inmediato a Seguridad, Legal y Cumplimiento para análisis, contención y notificación si aplica.
+10.	Norma GD-10: Los ambientes de desarrollo y pruebas no deberán contener datos productivos reales salvo autorización excepcional, cifrado, enmascaramiento y controles compensatorios.
+CAPÍTULO 4. Seguridad de la Información
+•	Gestión de identidades: MFA obligatorio, privilegio mínimo, Zero Trust, RBAC, segregación de funciones, revisión trimestral de accesos, deshabilitación automática de cuentas, PAM, SSO y aprobación formal para accesos privilegiados.
+•	Contraseñas: longitud mínima de 12 caracteres, complejidad, historial, bloqueo automático, prohibición de reutilización, uso de gestor de contraseñas y cambio inmediato ante sospecha de compromiso.
+•	Equipos: EDR/antivirus, BitLocker, inventario, parches, actualizaciones, control USB, hardening, monitoreo, respaldo de configuración y borrado seguro al retiro.
+•	BYOD: autorización del CISO, MDM obligatorio, cifrado, bloqueo remoto, separación de información corporativa y aceptación expresa de condiciones de uso.
+•	Redes: firewalls, IDS, IPS, WAF, VPN, segmentación, VLAN, NAC, monitoreo, registro de eventos y revisión periódica de reglas.
+•	Cloud: IAM, CSPM, CASB, backups, alta disponibilidad, cifrado, etiquetado de recursos, monitoreo de costos, revisión de permisos y eliminación de recursos no usados.
+Regla general de seguridad. Ningún sistema, aplicación, servicio, dispositivo o proveedor podrá operar en producción sin evaluación de riesgos, responsable asignado, controles mínimos, documentación, respaldo, monitoreo, plan de soporte y aprobación correspondiente.
+1.	Norma SI-01: Todo usuario deberá autenticarse mediante credenciales individuales; se prohíben cuentas compartidas salvo cuentas técnicas justificadas, documentadas y controladas.
+2.	Norma SI-02: El MFA será obligatorio para correo, VPN, sistemas financieros, sistemas de inventario, administración cloud, herramientas de seguridad y accesos remotos.
+3.	Norma SI-03: Los privilegios administrativos deberán otorgarse por tiempo limitado, con aprobación, registro de sesión, trazabilidad y revisión periódica.
+4.	Norma SI-04: Las contraseñas deberán tener mínimo 12 caracteres, no reutilizarse, no compartirse, almacenarse en gestor autorizado y cambiarse ante sospecha de compromiso.
+5.	Norma SI-05: Todo equipo corporativo deberá contar con EDR activo, cifrado de disco, parches vigentes, inventario actualizado, bloqueo automático y configuración base endurecida.
+6.	Norma SI-06: Los dispositivos USB estarán bloqueados por defecto y solo podrán habilitarse por necesidad justificada, tiempo definido y aprobación de Seguridad.
+7.	Norma SI-07: La red corporativa deberá segmentarse por función: usuarios, POS, servidores, invitados, administración, IoT, CCTV, proveedores y ambientes críticos.
+8.	Norma SI-08: Todo acceso remoto deberá realizarse por VPN o solución segura aprobada, con MFA, registro de conexión, limitación por rol y monitoreo.
+9.	Norma SI-09: Los servicios cloud deberán implementar IAM, cifrado, registro de eventos, alertas, respaldo, alta disponibilidad y revisión de configuraciones inseguras.
+10.	Norma SI-10: Ningún sistema podrá salir a producción sin evaluación de seguridad, análisis de vulnerabilidades, aprobación de arquitectura y plan de monitoreo.
+11.	Norma SI-11: La organización deberá ejecutar campañas de concientización al menos semestrales sobre phishing, manejo de datos, contraseñas, fraude, ingeniería social y reporte de incidentes.
+12.	Norma SI-12: Todo proveedor con acceso lógico a sistemas de RetailPro deberá usar cuentas nominativas, MFA, permisos mínimos, ventanas autorizadas y registro de actividades.
+CAPÍTULO 5. Seguridad Física
+RetailPro implementará control biométrico, CCTV, guardias, alarmas, sensores, credenciales temporales, registro de visitantes, custodia de llaves, zonas restringidas, acompañamiento obligatorio para visitantes, control de ingreso a bodegas, cajas, centros de datos y cuartos técnicos. Los centros de datos deberán contar con UPS, generadores, control ambiental, detección de humo, control de humedad, monitoreo de temperatura y registro de acceso.
+1.	Norma SF-01: El ingreso a oficinas, bodegas, centros de datos, cuartos técnicos, caja fuerte y zonas restringidas deberá controlarse mediante credencial, biometría, registro o autorización del responsable.
+2.	Norma SF-02: Todo visitante deberá registrarse, portar credencial temporal visible, estar acompañado por un colaborador autorizado y devolver la credencial al finalizar la visita.
+3.	Norma SF-03: Las grabaciones de CCTV deberán conservarse conforme al periodo definido, protegerse contra manipulación y consultarse solo por personal autorizado.
+4.	Norma SF-04: Las llaves físicas, tarjetas maestras y claves de alarma deberán estar bajo custodia formal, inventario, responsable asignado y registro de préstamo o devolución.
+5.	Norma SF-05: Los centros de datos y cuartos técnicos deberán contar con UPS, generador, control ambiental, sensores, detección de humo, control de humedad y revisión preventiva.
+6.	Norma SF-06: Se prohíbe dejar documentos confidenciales visibles en escritorios, impresoras, salas de reunión, mostradores, cajas, bodegas o vehículos corporativos.
+7.	Norma SF-07: Todo retiro de equipos, activos, mercancía o medios de almacenamiento deberá estar autorizado, registrado y conciliado contra inventario.
+8.	Norma SF-08: Las alarmas deberán probarse periódicamente y cualquier falla deberá reportarse, documentarse y corregirse con prioridad según criticidad del sitio.
+CAPÍTULO 6. Desarrollo Seguro
+Todo desarrollo interno o contratado deberá seguir SDLC seguro y DevSecOps. Se exigirán historias de seguridad, revisión de arquitectura, SAST, DAST, pentesting según criticidad, revisión de código, gestión de librerías, análisis de dependencias, gestión de secretos, segregación de ambientes, control de cambios, aprobación de despliegues, monitoreo posterior y evidencias en CI/CD.
+1.	Norma DS-01: Todo desarrollo deberá iniciar con requerimientos funcionales, no funcionales, de seguridad, privacidad, auditoría, disponibilidad y continuidad.
+2.	Norma DS-02: El código fuente deberá almacenarse en repositorios autorizados, con control de versiones, ramas protegidas, revisión por pares y trazabilidad de cambios.
+3.	Norma DS-03: Se deberán ejecutar pruebas SAST en cada integración relevante y corregir vulnerabilidades críticas antes de pasar a ambientes superiores.
+4.	Norma DS-04: Las pruebas DAST y pentesting serán obligatorias para aplicaciones públicas, sistemas de pago, portales de clientes y aplicaciones que procesen datos sensibles.
+5.	Norma DS-05: Los secretos, tokens, claves, certificados y credenciales no podrán almacenarse en código fuente, documentos, chats o archivos planos sin protección.
+6.	Norma DS-06: Las librerías y dependencias deberán revisarse contra vulnerabilidades conocidas y actualizarse cuando exista riesgo alto o crítico.
+7.	Norma DS-07: Producción, pruebas y desarrollo deberán estar segregados; ningún desarrollador tendrá acceso directo a producción salvo excepción controlada.
+8.	Norma DS-08: Todo despliegue deberá contar con aprobación, evidencia de pruebas, plan de reversa, monitoreo posterior y registro en la herramienta de cambios.
+9.	Norma DS-09: Las APIs deberán implementar autenticación, autorización, limitación de tasa, validación de entradas, cifrado, registro y manejo seguro de errores.
+10.	Norma DS-10: Todo defecto de seguridad deberá clasificarse, asignarse, remediarse y verificarse antes de cerrar el hallazgo.
+CAPÍTULO 7. Gestión de Cambios
+Todo cambio deberá registrarse mediante RFC con descripción, justificación, alcance, sistemas afectados, riesgos, pruebas, plan de implementación, ventana, plan de reversa, aprobaciones, responsables y evidencias. Los cambios críticos serán revisados por el CAB. Los cambios de emergencia deberán documentarse posteriormente en máximo 48 horas.
+1.	Norma GCAM-01: Todo cambio deberá registrarse mediante RFC antes de su ejecución, salvo emergencia documentada.
+2.	Norma GCAM-02: El RFC deberá incluir descripción, justificación, alcance, sistemas afectados, riesgos, impacto, pruebas, plan de implementación, plan de reversa y responsables.
+3.	Norma GCAM-03: Los cambios críticos deberán ser aprobados por el CAB y comunicados a áreas afectadas antes de la ventana de ejecución.
+4.	Norma GCAM-04: Los cambios de emergencia deberán ser aprobados por autoridad designada y formalizados en la herramienta dentro de las 48 horas siguientes.
+5.	Norma GCAM-05: Ningún cambio podrá implementarse sin evidencia de pruebas exitosas, salvo emergencia con aceptación explícita del riesgo.
+6.	Norma GCAM-06: Todo cambio fallido deberá activar plan de reversa o plan de contingencia, y generar análisis posterior de causa raíz.
+7.	Norma GCAM-07: Las ventanas de cambio deberán evitar horarios de alta venta, cierre contable, eventos comerciales críticos y campañas masivas.
+8.	Norma GCAM-08: Los cambios recurrentes podrán estandarizarse si son de bajo riesgo, repetibles, documentados, probados y aprobados previamente.
+9.	Norma GCAM-09: El dueño del servicio deberá validar la operación posterior al cambio y confirmar cierre exitoso.
+10.	Norma GCAM-10: Auditoría podrá revisar cambios ejecutados, evidencias, aprobaciones, fallas, emergencias y cumplimiento de ventanas.
+CAPÍTULO 8. Gestión de Incidentes
+Los incidentes se clasificarán por severidad crítica, alta, media o baja según impacto en clientes, datos, ventas, operación, reputación y cumplimiento. El ciclo mínimo será: detección, registro, clasificación, escalamiento, contención, erradicación, recuperación, comunicación, informe final y lecciones aprendidas. Los incidentes críticos deberán notificarse a Gerencia General y Comité de Ciberseguridad.
+1.	Norma INC-01: Todo incidente deberá registrarse con fecha, hora, reportante, activo afectado, descripción, severidad, impacto, responsable y estado.
+2.	Norma INC-02: La severidad se determinará por afectación a ventas, clientes, datos personales, sistemas críticos, reputación, cumplimiento, seguridad física o continuidad.
+3.	Norma INC-03: Los incidentes críticos deberán escalarse inmediatamente a Seguridad, TI, Gerencia General y comité correspondiente.
+4.	Norma INC-04: La contención tendrá prioridad sobre la investigación cuando exista riesgo activo de propagación, pérdida de datos, fraude o indisponibilidad masiva.
+5.	Norma INC-05: Ninguna evidencia digital deberá alterarse, eliminarse o manipularse sin autorización del equipo de respuesta.
+6.	Norma INC-06: Todo incidente de seguridad deberá tener análisis de causa raíz, acciones correctivas, acciones preventivas y lecciones aprendidas.
+7.	Norma INC-07: Las comunicaciones externas sobre incidentes deberán ser aprobadas por Gerencia General, Legal, Comunicaciones y Seguridad según corresponda.
+8.	Norma INC-08: Los incidentes relacionados con datos personales deberán evaluarse para determinar obligación de notificación a titulares o autoridades.
+9.	Norma INC-09: Los tiempos objetivo de atención deberán definirse por severidad y revisarse contra indicadores MTTA, MTTR y reincidencia.
+10.	Norma INC-10: Un incidente no podrá cerrarse sin evidencia de recuperación, validación del dueño del proceso y documentación final.
+CAPÍTULO 9. Continuidad del Negocio
+RetailPro mantendrá BCP y DRP para procesos críticos: ventas, caja, inventario, facturación, comercio electrónico, pagos, logística, atención al cliente y soporte TI. Cada proceso tendrá RTO, RPO, responsable, plan manual, centro alterno, contactos de emergencia, dependencias, proveedores críticos y simulacros al menos anuales.
+1.	Norma CN-01: Cada proceso crítico deberá tener BCP documentado, responsable, suplente, procedimientos manuales, dependencias, contactos y criterios de activación.
+2.	Norma CN-02: Cada sistema crítico deberá tener DRP con RTO, RPO, respaldo, restauración, infraestructura alternativa y responsables técnicos.
+3.	Norma CN-03: Los respaldos deberán ejecutarse según criticidad, cifrarse, monitorearse y probarse mediante restauraciones periódicas.
+4.	Norma CN-04: Los simulacros de continuidad deberán realizarse mínimo una vez al año y documentar resultados, brechas, responsables y fechas de corrección.
+5.	Norma CN-05: La activación de crisis deberá considerar indisponibilidad tecnológica, interrupción logística, fallas eléctricas, eventos climáticos, incidentes de seguridad, fraude masivo o afectación de tiendas.
+6.	Norma CN-06: Los procesos de caja, ventas, inventario, facturación, pagos y atención al cliente deberán contar con procedimientos alternos manuales o semiautomatizados.
+7.	Norma CN-07: Los proveedores críticos deberán presentar planes de continuidad, acuerdos de recuperación, contactos de emergencia y evidencias de pruebas.
+8.	Norma CN-08: La alta dirección deberá recibir reporte posterior a cada crisis o simulacro con impactos, decisiones, costos, fallas, oportunidades de mejora y acciones.
+9.	Norma CN-09: Los planes de continuidad deberán actualizarse por apertura de tienda, cambio de sistema, cambio de proveedor, incidente crítico o cambio organizacional.
+10.	Norma CN-10: Toda contingencia deberá cerrarse con informe final, tiempos reales de recuperación, desviaciones frente a RTO/RPO y plan de mejora.
+CAPÍTULO 10. Contratación
+Empleados. RetailPro podrá vincular personal mediante contrato indefinido, fijo, temporal o aprendiz, cumpliendo requisitos laborales, confidencialidad, inducción, seguridad de la información, conflicto de interés, protección de datos, entrega de activos y evaluación de desempeño.
+Prestadores y proveedores. Todo contrato deberá definir entregables, SLA, penalidades, confidencialidad, propiedad intelectual, tratamiento de datos, auditorías, soporte, continuidad, reversibilidad, matriz de criticidad, NDA, due diligence, evaluación de riesgos y evaluaciones anuales de desempeño.
+1.	Norma CT-01: Toda contratación deberá estar soportada por necesidad del área, disponibilidad presupuestal, aprobación correspondiente y definición clara de entregables.
+2.	Norma CT-02: Los empleados deberán recibir inducción en ética, seguridad de la información, protección de datos, prevención de fraude, servicio al cliente y procesos operativos.
+3.	Norma CT-03: Antes de otorgar accesos, el jefe inmediato deberá confirmar cargo, funciones, sistemas requeridos, nivel de privilegio y fecha de inicio.
+4.	Norma CT-04: La terminación laboral o contractual deberá activar retiro de accesos, devolución de activos, cierre de cuentas, revocación de credenciales y recordatorio de confidencialidad.
+5.	Norma CT-05: Los proveedores críticos deberán pasar por due diligence financiero, legal, reputacional, técnico, de seguridad, privacidad y continuidad.
+6.	Norma CT-06: Todo contrato con acceso a información deberá incluir NDA, cláusulas de protección de datos, auditoría, subcontratación, notificación de incidentes y devolución o eliminación de información.
+7.	Norma CT-07: Los SLA deberán definir disponibilidad, tiempos de respuesta, tiempos de solución, penalidades, reportes, ventanas de mantenimiento y escalamiento.
+8.	Norma CT-08: Los proveedores deberán evaluarse al menos anualmente por calidad, cumplimiento, seguridad, continuidad, oportunidad, costo, soporte e incidentes.
+9.	Norma CT-09: Ningún proveedor podrá iniciar actividades sin contrato, orden de compra, aceptación de políticas aplicables y responsable interno asignado.
+10.	Norma CT-10: La criticidad del proveedor determinará nivel de monitoreo, requisitos de seguridad, frecuencia de evaluación, exigencia de auditoría y planes de salida.
+CAPÍTULO 11. Operación Retail
+La operación retail cubrirá inventarios, PQR, atención a clientes, gestión de caja, arqueos, apertura, cierre, recepción de mercancía, devoluciones, garantías, cadena de suministro, exhibición, precios, promociones, facturación, trazabilidad de movimientos, control de mermas y conciliación diaria. Toda diferencia de caja o inventario deberá registrarse, investigarse y cerrarse con evidencia.
+1.	Norma OR-01: Toda apertura de tienda deberá validar caja inicial, sistemas POS, conectividad, inventario disponible, personal asignado, alarmas, limpieza, exhibición y precios.
+2.	Norma OR-02: Todo cierre de tienda deberá incluir arqueo de caja, conciliación de ventas, cierre de POS, resguardo de efectivo, revisión de inventario sensible, activación de alarmas y reporte de novedades.
+3.	Norma OR-03: Las diferencias de caja deberán registrarse, justificarse, investigarse y escalarse según monto, recurrencia o indicio de fraude.
+4.	Norma OR-04: Las devoluciones deberán exigir factura o comprobante, validación de producto, motivo, estado, autorización y registro en sistema.
+5.	Norma OR-05: Las garantías deberán tramitarse conforme a condiciones comerciales, diagnóstico técnico, tiempos de respuesta, registro de caso y comunicación al cliente.
+6.	Norma OR-06: Toda recepción de mercancía deberá contrastarse contra orden de compra, remisión, cantidad, referencia, estado físico, lote, serial si aplica y registro en inventario.
+7.	Norma OR-07: Los ajustes de inventario deberán tener causa, evidencia, aprobación, responsable y trazabilidad en sistema.
+8.	Norma OR-08: Las PQR deberán registrarse con categoría, cliente, canal, fecha, descripción, responsable, SLA, respuesta y cierre documentado.
+9.	Norma OR-09: Los cambios de precio y promociones deberán estar autorizados, vigentes, comunicados a tienda y reflejados correctamente en POS y canales digitales.
+10.	Norma OR-10: Toda merma, daño, pérdida, vencimiento o hurto deberá registrarse, investigarse y reportarse al responsable de inventario y riesgos.
+11.	Norma OR-11: El efectivo deberá manejarse bajo doble control cuando aplique, con límites de caja, depósitos programados, custodia segura y conciliación diaria.
+12.	Norma OR-12: La atención al cliente deberá mantener trato respetuoso, información clara, protección de datos, registro de solicitudes y escalamiento oportuno.
+CAPÍTULO 12. Gestión de PQR, Atención al Cliente y Tiempos de Respuesta
+Objetivo. Establecer las normas para recibir, registrar, clasificar, gestionar, responder, cerrar y auditar peticiones, quejas, reclamos, solicitudes, sugerencias, felicitaciones y denuncias relacionadas con productos, servicios, garantías, devoluciones, atención en tienda, canales digitales, entregas, facturación, pagos, promociones, tratamiento de datos y experiencia del cliente en RetailPro.
+Alcance. Este capítulo aplica a todos los canales de atención de RetailPro: tiendas físicas, línea telefónica, correo electrónico, formulario web, aplicaciones móviles, redes sociales corporativas, chat, WhatsApp empresarial, marketplace, comercio electrónico, centros de servicio, proveedores logísticos y cualquier tercero que atienda clientes en nombre de la compañía.
+Marco de referencia. RetailPro tomará como referencia las reglas aplicables de protección al consumidor, derecho de petición cuando corresponda, protección de datos personales, comercio electrónico, garantías, retracto, publicidad, información al consumidor y lineamientos de autoridades competentes. Como criterio operativo interno, las peticiones, quejas y reclamos ordinarios deberán gestionarse dentro de quince días hábiles; las solicitudes de información o copias dentro de diez días hábiles; y las consultas complejas dentro de treinta días hábiles, salvo que una norma especial o contrato aplicable establezca un plazo diferente.
+Definiciones. Petición: solicitud respetuosa de información, gestión, aclaración, reconocimiento de derecho o intervención de RetailPro. Queja: manifestación de inconformidad por trato, conducta, atención, demora o comportamiento de un colaborador, proveedor o canal. Reclamo: inconformidad relacionada con producto, servicio, garantía, entrega, cobro, precio, devolución, incumplimiento o falla. Solicitud: requerimiento operativo del cliente que no implica necesariamente inconformidad. Sugerencia: propuesta de mejora. Felicitación: reconocimiento positivo. Denuncia: comunicación sobre posible fraude, corrupción, conducta irregular, abuso, discriminación, maltrato, manipulación de inventario, cobro indebido o incumplimiento grave.
+Tipo de caso	Ejemplos	Tiempo máximo interno	Responsable primario
+Petición general	Solicitud sobre estado de compra, políticas, procedimientos, disponibilidad o trámite.	15 días hábiles	Servicio al Cliente
+Solicitud de información o copia	Copia de factura, comprobante, soporte de compra, certificación o registro permitido.	10 días hábiles	Servicio al Cliente / Backoffice
+Consulta compleja	Concepto sobre garantía, condición contractual, caso con varias áreas o análisis jurídico.	30 días hábiles	Servicio al Cliente / Legal
+Queja por atención	Maltrato, demora, falta de información, trato inadecuado o incumplimiento de protocolo.	15 días hábiles	Servicio al Cliente / Operaciones
+Reclamo por producto o servicio	Producto defectuoso, garantía, entrega incompleta, cobro errado, publicidad o promoción.	15 días hábiles	Servicio al Cliente / Área dueña
+Caso crítico	Riesgo reputacional, posible afectación de datos, fraude, seguridad, salud o cliente vulnerable.	Escalamiento inmediato y respuesta prioritaria	Gerencia responsable / Legal / Seguridad
+Ciclo de vida de una PQR. Toda PQR deberá pasar por las etapas de recepción, radicación, clasificación, asignación, análisis, solicitud de información adicional si aplica, gestión con área responsable, respuesta de fondo, notificación al cliente, cierre, medición de satisfacción, archivo de evidencias y revisión de calidad. Ninguna PQR podrá cerrarse únicamente por vencimiento del plazo o por imposibilidad de contacto sin dejar evidencia de las gestiones realizadas.
+Contenido mínimo del radicado. Cada caso deberá incluir número único, fecha y hora de recepción, canal, nombre del cliente cuando sea suministrado, datos de contacto, tipo de solicitud, descripción, tienda o canal involucrado, producto o servicio, número de factura u orden si aplica, evidencias adjuntas, clasificación de severidad, responsable asignado, SLA, estado, respuesta emitida y fecha de cierre.
+1.	Norma PQR-01: Toda PQR recibida por cualquier canal deberá registrarse en la herramienta oficial de RetailPro el mismo día hábil de recepción o, si se recibe fuera del horario laboral, el siguiente día hábil.
+2.	Norma PQR-02: Ningún colaborador podrá gestionar una queja o reclamo únicamente por medios informales sin generar radicado, trazabilidad y evidencia de atención.
+3.	Norma PQR-03: El cliente deberá recibir confirmación de radicación con número de caso, fecha de recepción, canal de seguimiento y plazo estimado de respuesta.
+4.	Norma PQR-04: Las respuestas deberán ser claras, completas, respetuosas, verificables, coherentes con la evidencia y responder de fondo la solicitud presentada.
+5.	Norma PQR-05: Cuando una PQR no sea competencia de RetailPro, se deberá informar al cliente la razón y, si es posible, orientar sobre el canal o entidad correspondiente.
+6.	Norma PQR-06: Si la PQR requiere información adicional del cliente, la solicitud deberá realizarse por escrito, indicando qué información falta, por qué es necesaria y el plazo para aportarla.
+7.	Norma PQR-07: Si no es posible responder dentro del plazo ordinario por complejidad, pruebas o dependencia de un tercero, se deberá informar al cliente antes del vencimiento, indicando motivo, avance y nuevo plazo razonable.
+8.	Norma PQR-08: Las PQR asociadas a datos personales, fraudes, discriminación, posible delito, seguridad física, salud, menores de edad o exposición pública deberán escalarse inmediatamente a las áreas competentes.
+9.	Norma PQR-09: Toda respuesta que niegue una pretensión del cliente deberá explicar las razones, soportes, políticas aplicables y alternativas disponibles cuando existan.
+10.	Norma PQR-10: El cierre del caso solo procederá cuando exista respuesta enviada, evidencia de notificación y registro de la solución, negación motivada o imposibilidad documentada de continuar la gestión.
+Clasificación por severidad. Severidad crítica: casos con impacto masivo, exposición mediática, posible vulneración de datos, riesgo físico, fraude, afectación a población vulnerable o interrupción relevante del servicio. Severidad alta: incumplimiento de garantía, cobro relevante, entrega fallida, cliente corporativo, reincidencia o escalamiento formal. Severidad media: inconformidades individuales sin impacto crítico. Severidad baja: solicitudes simples, aclaraciones, sugerencias o felicitaciones.
+1.	Norma PQR-11: Los casos críticos deberán escalarse en máximo dos horas hábiles a Gerencia de Servicio al Cliente, Legal, Seguridad, Protección de Datos, Operaciones o Tecnología según corresponda.
+2.	Norma PQR-12: Las quejas por trato inadecuado deberán remitirse al jefe del área involucrada y a Talento Humano cuando exista posible falta disciplinaria.
+3.	Norma PQR-13: Los reclamos por garantía deberán validar fecha de compra, factura, estado del producto, condiciones de uso, diagnóstico técnico, política comercial y normativa aplicable.
+4.	Norma PQR-14: Los reclamos por entregas deberán revisar orden, guía, operador logístico, dirección, evidencia de entrega, novedades, tiempos prometidos y comunicación enviada al cliente.
+5.	Norma PQR-15: Los reclamos por cobros deberán validar factura, medio de pago, autorización, conciliación bancaria, reverso, descuento, promoción y estado contable.
+6.	Norma PQR-16: Las PQR por publicidad, promociones o precios deberán verificar piezas publicitarias, vigencia, términos y condiciones, disponibilidad, restricciones y consistencia entre canal físico y digital.
+7.	Norma PQR-17: Las PQR de comercio electrónico deberán revisar trazabilidad de navegación, orden, pago, confirmación, inventario, despacho, entrega, retracto, devolución y soporte posventa.
+8.	Norma PQR-18: Toda PQR deberá preservar documentos, chats, correos, grabaciones autorizadas, fotografías, guías, facturas y demás evidencias necesarias para auditoría o defensa jurídica.
+9.	Norma PQR-19: No se deberá solicitar al cliente información excesiva, innecesaria o no relacionada con la finalidad de resolver la PQR.
+10.	Norma PQR-20: Las áreas internas deberán responder solicitudes de Servicio al Cliente dentro del plazo interno definido para permitir respuesta oportuna al consumidor.
+Área interna	Tiempo interno objetivo	Uso esperado
+Tienda física	2 días hábiles	Validar atención, caja, inventario, devolución, garantía o evidencia local.
+Logística	3 días hábiles	Validar despacho, guía, entrega, novedad, pérdida, daño o devolución.
+Finanzas	3 días hábiles	Validar pagos, reversos, facturación, conciliación y notas crédito.
+Tecnología	3 días hábiles	Validar errores de plataforma, POS, comercio electrónico, pagos o disponibilidad.
+Legal	5 días hábiles	Revisar casos complejos, reclamaciones formales, derechos de petición o riesgo jurídico.
+Protección de Datos	2 días hábiles	Evaluar solicitudes de titulares, incidentes de datos o tratamiento de información personal.
+Indicadores específicos de PQR. RetailPro medirá volumen total de PQR, PQR por canal, PQR por tienda, PQR por categoría, tiempo promedio de primera respuesta, tiempo promedio de solución, porcentaje de cumplimiento de SLA, casos vencidos, reincidencias, causas raíz, satisfacción posterior al cierre, porcentaje de respuestas reabiertas, casos escalados a autoridad, casos con compensación y costo asociado a reclamaciones.
+1.	Norma PQR-21: El cumplimiento de SLA de PQR deberá medirse semanalmente a nivel operativo y mensualmente a nivel gerencial.
+2.	Norma PQR-22: Toda categoría de PQR que aumente más del 20% frente al promedio de los tres meses anteriores deberá generar análisis de causa raíz.
+3.	Norma PQR-23: Las PQR reincidentes por tienda, producto, proveedor, campaña o canal deberán convertirse en plan de mejora con responsable y fecha de cierre.
+4.	Norma PQR-24: Las compensaciones, reembolsos, cambios, bonos o notas crédito deberán estar autorizados según matriz de atribuciones y quedar registrados en el caso.
+5.	Norma PQR-25: El personal de atención no podrá prometer soluciones, descuentos, compensaciones o tiempos que no estén autorizados por política.
+6.	Norma PQR-26: Toda comunicación con el cliente deberá usar lenguaje respetuoso, claro, no discriminatorio, sin tecnicismos innecesarios y con orientación a la solución.
+7.	Norma PQR-27: Las grabaciones, chats y correos relacionados con PQR deberán conservarse conforme a la tabla de retención documental y la política de protección de datos.
+8.	Norma PQR-28: Cuando una PQR derive en hallazgo de fraude, error sistémico, falla de proveedor o incumplimiento normativo, deberá notificarse al Comité de Riesgos o al comité correspondiente.
+9.	Norma PQR-29: Las PQR cerradas deberán ser muestreadas periódicamente por calidad para evaluar oportunidad, completitud, tono, evidencia, solución y cumplimiento normativo.
+10.	Norma PQR-30: El área de Servicio al Cliente deberá presentar informe mensual con tendencias, causas raíz, riesgos, casos críticos, vencimientos, acciones correctivas y oportunidades de mejora.
+Formatos obligatorios para la gestión de PQR
+Regla general de formatos. Toda PQR deberá gestionarse mediante formatos estandarizados, trazables y almacenados en la herramienta oficial de Servicio al Cliente. Los formatos podrán ser digitales, integrados al CRM, formularios web, plantillas internas o registros automatizados, siempre que conserven los campos mínimos exigidos, responsables, fechas, evidencias, estado del caso y trazabilidad de cambios.
+Código de formato	Nombre del formato	Uso obligatorio	Responsable de diligenciamiento	Responsable de aprobación o validación
+F-PQR-01	Radicación inicial de PQR	Registrar cualquier petición, queja, reclamo, solicitud, sugerencia, felicitación o denuncia recibida por cualquier canal.	Agente de Servicio al Cliente, asesor de tienda o canal receptor.	Coordinador de Servicio al Cliente.
+F-PQR-02	Clasificación y severidad	Determinar tipo de caso, categoría, subcategoría, severidad, SLA aplicable, área responsable y ruta de escalamiento.	Agente de Servicio al Cliente.	Supervisor de PQR.
+F-PQR-03	Solicitud de información adicional	Pedir al cliente datos, documentos o evidencias faltantes necesarios para gestionar el caso.	Agente asignado al caso.	Supervisor de PQR cuando la solicitud suspenda o afecte el plazo.
+F-PQR-04	Traslado interno a área responsable	Solicitar análisis, concepto, soporte o decisión a tiendas, logística, finanzas, tecnología, legal, protección de datos u otra área.	Agente o coordinador de Servicio al Cliente.	Líder del área receptora.
+F-PQR-05	Análisis y concepto del área responsable	Documentar hallazgos, evidencias, causa raíz, decisión recomendada y acciones correctivas.	Área dueña del proceso o especialista designado.	Jefe del área responsable.
+F-PQR-06	Respuesta formal al cliente	Emitir respuesta clara, completa, de fondo y soportada al cliente.	Agente asignado o coordinador de Servicio al Cliente.	Supervisor de PQR; Legal cuando exista riesgo jurídico.
+F-PQR-07	Autorización de compensación	Aprobar reembolso, cambio, bono, nota crédito, descuento, envío sin costo u otra compensación.	Servicio al Cliente o área dueña.	Jefe de Servicio al Cliente, Finanzas o Gerencia según monto.
+F-PQR-08	Cierre y satisfacción del cliente	Registrar solución, fecha de cierre, evidencia de notificación, aceptación, reapertura o encuesta de satisfacción.	Agente asignado.	Coordinador de Servicio al Cliente.
+F-PQR-09	Reapertura de caso	Documentar inconformidad posterior del cliente, nueva evidencia o error en el cierre.	Agente receptor de la reapertura.	Supervisor de PQR.
+F-PQR-10	Análisis de causa raíz y plan de mejora	Gestionar casos recurrentes, críticos, vencidos, de alto impacto o asociados a fallas sistémicas.	Dueño del proceso afectado.	Comité de Riesgos, Servicio al Cliente u Operaciones según criticidad.
+F-PQR-11	Escalamiento de caso crítico	Activar ruta inmediata para riesgos reputacionales, fraude, datos personales, seguridad, salud, discriminación o autoridad.	Supervisor de PQR o gerente de tienda.	Gerencia de Servicio al Cliente, Legal, Seguridad o Gerencia General.
+F-PQR-12	Informe mensual de PQR	Consolidar indicadores, tendencias, SLA, vencimientos, reincidencias, causas raíz y planes de acción.	Analista de Servicio al Cliente.	Gerencia de Servicio al Cliente.
+Campos mínimos por formato PQR
+•	F-PQR-01 Radicación inicial: número de radicado, fecha y hora, canal, nombre del cliente, documento si aplica, datos de contacto, autorización de tratamiento de datos cuando corresponda, tipo de caso, descripción, tienda o canal involucrado, producto, referencia, factura, orden, guía, evidencias adjuntas y funcionario receptor.
+•	F-PQR-02 Clasificación y severidad: categoría, subcategoría, severidad, impacto, urgencia, SLA aplicable, área responsable, responsable asignado, necesidad de escalamiento, riesgo legal, riesgo reputacional, datos personales involucrados y justificación de la clasificación.
+•	F-PQR-03 Información adicional: datos faltantes, razón de la solicitud, plazo otorgado al cliente, canal de solicitud, fecha de envío, evidencia de notificación, respuesta recibida y decisión si el cliente no responde.
+•	F-PQR-04 Traslado interno: área requerida, líder responsable, pregunta o gestión solicitada, plazo interno, documentos enviados, restricciones de confidencialidad, prioridad, fecha de envío y fecha esperada de respuesta.
+•	F-PQR-05 Concepto del área: análisis técnico u operativo, evidencias revisadas, causa identificada, responsable del hallazgo, recomendación, acción correctiva, necesidad de compensación, riesgos y firma del jefe del área.
+•	F-PQR-06 Respuesta formal: resumen del caso, hechos verificados, decisión, fundamentos de política, solución ofrecida, negativa motivada si aplica, canales de seguimiento, fecha de respuesta, responsable y aprobación.
+•	F-PQR-07 Compensación: tipo de compensación, valor, causal, evidencia, autorización presupuestal, aprobador, fecha, medio de entrega, registro contable y confirmación al cliente.
+•	F-PQR-08 Cierre: solución aplicada, fecha de cierre, evidencia de envío, estado final, encuesta de satisfacción, observaciones, posibilidad de reapertura y responsable del cierre.
+•	F-PQR-09 Reapertura: radicado original, motivo, nueva evidencia, error identificado, responsable anterior, nueva clasificación, nuevo SLA y decisión de reapertura.
+•	F-PQR-10 Causa raíz: problema recurrente, proceso afectado, causa primaria, causa contribuyente, impacto, acciones correctivas, acciones preventivas, responsable, fecha objetivo y evidencia de cierre.
+•	F-PQR-11 Caso crítico: descripción del evento, riesgo principal, áreas activadas, hora de escalamiento, decisiones tomadas, vocero autorizado, estado de comunicación, impacto estimado y plan inmediato.
+•	F-PQR-12 Informe mensual: periodo, volumen total, casos por canal, casos por categoría, cumplimiento de SLA, vencidos, críticos, reaperturas, compensaciones, causas raíz, planes de acción y recomendaciones.
+Responsables del proceso PQR
+Rol	Responsabilidades principales	Decisiones permitidas	Evidencias que debe conservar
+Cliente o usuario	Presentar la solicitud, entregar información suficiente, aportar evidencias y atender requerimientos adicionales.	Solicitar seguimiento, aportar nuevas pruebas, aceptar solución o pedir revisión.	Solicitud, soportes, comunicaciones y aceptación o inconformidad.
+Asesor de tienda o canal receptor	Recibir la PQR, orientar al cliente, registrar el caso, adjuntar soportes y entregar número de radicado.	No puede negar recepción; puede clasificar preliminarmente.	Radicado inicial, soporte de recepción y documentos entregados por el cliente.
+Agente de Servicio al Cliente	Gestionar el caso, clasificar, solicitar información, coordinar áreas internas, preparar respuesta y actualizar estados.	Resolver casos simples dentro de política; escalar casos complejos.	Historial del caso, comunicaciones, formatos diligenciados y respuesta propuesta.
+Supervisor de PQR	Validar clasificación, priorizar casos, revisar respuestas, controlar SLA, aprobar reaperturas y escalar riesgos.	Aprobar respuestas estándar, reclasificar severidad y ordenar escalamiento.	Revisión de calidad, aprobaciones, cambios de severidad y control de vencimientos.
+Coordinador de Servicio al Cliente	Administrar la operación diaria de PQR, asignar cargas, asegurar cumplimiento de tiempos y consolidar reportes.	Redistribuir casos, aprobar cierres complejos y activar planes operativos.	Tablero de casos, reportes diarios, bitácoras de seguimiento y cierres validados.
+Gerencia de Servicio al Cliente	Definir lineamientos, metas, recursos, informes, indicadores, mejora continua y escalamiento ejecutivo.	Aprobar políticas operativas, planes de mejora y compensaciones dentro de su atribución.	Informe mensual, actas, planes de acción, decisiones gerenciales e indicadores.
+Área dueña del proceso	Analizar hechos, validar evidencias, emitir concepto técnico u operativo y ejecutar correcciones.	Definir causa raíz, aceptar o rechazar responsabilidad operativa y proponer solución.	Concepto, evidencias revisadas, plan correctivo y confirmación de ejecución.
+Legal	Revisar casos con riesgo jurídico, autoridades, derechos de petición, publicidad, garantías, consumidores o litigios.	Aprobar respuestas jurídicas y recomendar estrategia de defensa o conciliación.	Conceptos jurídicos, respuestas aprobadas, comunicaciones formales y alertas regulatorias.
+Protección de Datos	Evaluar PQR asociadas a datos personales, derechos de titulares, incidentes de información o solicitudes de eliminación.	Aprobar tratamiento, respuesta al titular y acciones de mitigación.	Concepto de privacidad, evaluación de riesgo, soporte de autorización y trazabilidad.
+Finanzas	Validar pagos, cobros, reversos, notas crédito, facturación, conciliaciones y compensaciones económicas.	Aprobar ajustes financieros conforme a matriz de atribuciones.	Conciliaciones, soportes contables, autorizaciones y comprobantes.
+Logística	Investigar entregas, guías, transportadoras, devoluciones, daños, pérdidas y tiempos de despacho.	Confirmar novedad logística y proponer reposición, reenvío o compensación logística.	Guías, trazabilidad, prueba de entrega, actas de novedad y respuesta del operador.
+Tecnología	Analizar fallas de plataforma, POS, pagos, comercio electrónico, disponibilidad, integraciones y errores sistémicos.	Determinar causa técnica, prioridad de corrección y acciones de remediación.	Logs, tickets técnicos, evidencias de falla, correcciones y validación posterior.
+Auditoría Interna	Evaluar cumplimiento del proceso, oportunidad, trazabilidad, cierre, evidencias y controles.	Emitir hallazgos, recomendaciones y solicitar planes de acción.	Informe de auditoría, muestras revisadas, hallazgos y seguimiento.
+Matriz RACI específica para PQR
+Actividad	Responsable	Aprobador	Consultado	Informado
+Recepción de PQR	Asesor de tienda / canal receptor	Coordinador de Servicio al Cliente	Cliente	Supervisor de PQR
+Radicación inicial	Agente de Servicio al Cliente	Supervisor de PQR	Asesor receptor	Cliente
+Clasificación y severidad	Agente de Servicio al Cliente	Supervisor de PQR	Área dueña / Legal / Datos según caso	Coordinador de Servicio al Cliente
+Asignación a área interna	Coordinador de Servicio al Cliente	Supervisor de PQR	Área dueña	Agente asignado
+Análisis técnico u operativo	Área dueña del proceso	Jefe del área responsable	Servicio al Cliente	Supervisor de PQR
+Revisión jurídica	Legal	Jefe Jurídico	Servicio al Cliente / área dueña	Gerencia de Servicio al Cliente
+Revisión de datos personales	Protección de Datos	Oficial o responsable de privacidad	Legal / Seguridad	Gerencia de Servicio al Cliente
+Aprobación de compensación	Servicio al Cliente / Finanzas	Jefe autorizado según monto	Área dueña / Legal	Cliente y Contabilidad
+Respuesta al cliente	Agente asignado	Supervisor de PQR o Legal si aplica	Área dueña	Cliente
+Cierre del caso	Agente asignado	Coordinador de Servicio al Cliente	Cliente / área dueña	Supervisor de PQR
+Reapertura	Agente receptor	Supervisor de PQR	Área dueña	Cliente
+Reporte mensual	Analista de Servicio al Cliente	Gerencia de Servicio al Cliente	Operaciones, Legal, Tecnología, Finanzas	Gerencia General y Comité de Riesgos
+Auditoría del proceso	Auditoría Interna	Comité de Auditoría	Servicio al Cliente	Gerencia General
+Normas adicionales sobre formatos, responsables y evidencias
+1.	Norma PQR-31: Todo formato PQR deberá tener código, nombre, versión, fecha de vigencia, propietario, responsable de diligenciamiento, aprobador, campos obligatorios y repositorio oficial.
+2.	Norma PQR-32: El formato F-PQR-01 será obligatorio para cualquier caso recibido, incluso cuando el cliente solo solicite orientación verbal y el asunto pueda derivar en inconformidad posterior.
+3.	Norma PQR-33: El responsable de radicación no podrá rechazar una PQR por falta de documentos; deberá registrarla y solicitar posteriormente la información faltante mediante F-PQR-03.
+4.	Norma PQR-34: El Supervisor de PQR deberá revisar diariamente los casos críticos, vencidos, próximos a vencer y reabiertos.
+5.	Norma PQR-35: El Coordinador de Servicio al Cliente deberá validar semanalmente que los casos tengan responsable asignado, SLA correcto, evidencias suficientes y estado actualizado.
+6.	Norma PQR-36: Las áreas internas que reciban un F-PQR-04 deberán responder dentro del plazo definido y no podrán cerrar el requerimiento sin concepto, evidencia y responsable.
+7.	Norma PQR-37: Toda respuesta al cliente deberá basarse en información validada y no podrá contener afirmaciones no verificadas, promesas no autorizadas o aceptación de responsabilidad sin aprobación cuando exista riesgo jurídico.
+8.	Norma PQR-38: El formato F-PQR-07 será obligatorio para cualquier compensación económica o no económica, sin importar su valor.
+9.	Norma PQR-39: Las compensaciones superiores al monto autorizado para Servicio al Cliente deberán escalarse a Finanzas, Gerencia de Servicio al Cliente o Gerencia General según matriz de atribuciones.
+10.	Norma PQR-40: Ningún caso crítico podrá cerrarse sin revisión del área competente y aprobación del Supervisor de PQR o Gerencia de Servicio al Cliente.
+11.	Norma PQR-41: Los formatos deberán conservarse con sus evidencias durante el periodo definido en la tabla de retención documental y deberán estar disponibles para auditoría interna, auditoría externa o autoridad competente.
+12.	Norma PQR-42: Todo cambio manual en fechas, estado, severidad, responsable, SLA o decisión deberá quedar registrado con usuario, fecha, motivo y autorización.
+13.	Norma PQR-43: Cuando una PQR involucre datos personales, el responsable deberá minimizar la información tratada, limitar el acceso y consultar a Protección de Datos si existe duda sobre la respuesta.
+14.	Norma PQR-44: Los informes mensuales deberán incluir responsables de acciones correctivas, fecha compromiso, avance, estado y evidencia de cierre.
+15.	Norma PQR-45: Auditoría Interna podrá seleccionar muestras de cualquier formato PQR para verificar oportunidad, integridad, consistencia, autorización, evidencias, respuesta y cierre.
+CAPÍTULO 13. Indicadores
+KPI	Definición	Frecuencia
+Disponibilidad	Porcentaje de tiempo en que sistemas críticos están operativos.	Mensual
+MTTR	Tiempo medio de recuperación ante fallas o incidentes.	Mensual
+MTBF	Tiempo medio entre fallas.	Trimestral
+SLA	Cumplimiento de acuerdos de servicio internos y externos.	Mensual
+Incidentes	Número, severidad, causa raíz y tiempo de cierre.	Mensual
+Vulnerabilidades	Vulnerabilidades abiertas, vencidas y corregidas.	Mensual
+Inventario	Exactitud, rotación, merma y diferencias.	Mensual
+Ventas	Cumplimiento de meta, ticket promedio y conversión.	Diario/Mensual
+NPS	Índice de recomendación del cliente.	Mensual
+Tiempo de atención	Tiempo promedio de respuesta a clientes y PQR.	Mensual
+1.	Norma KPI-01: Todo KPI deberá tener definición, fórmula, fuente, frecuencia, meta, umbral verde, amarillo y rojo, responsable y mecanismo de reporte.
+2.	Norma KPI-02: Los indicadores tecnológicos mínimos serán disponibilidad, MTTR, MTBF, incidentes, cambios fallidos, vulnerabilidades vencidas, cumplimiento de parches y capacidad.
+3.	Norma KPI-03: Los indicadores retail mínimos serán ventas, ticket promedio, conversión, inventario, merma, devoluciones, garantías, NPS, PQR y tiempo de atención.
+4.	Norma KPI-04: Los indicadores de seguridad deberán revisarse mensualmente por Seguridad y trimestralmente por el Comité de Ciberseguridad.
+5.	Norma KPI-05: Todo indicador en rojo deberá generar análisis de causa, plan de acción, responsable, fecha de cierre y seguimiento.
+6.	Norma KPI-06: Los datos usados para indicadores deberán provenir de fuentes autorizadas, ser trazables y estar protegidos contra manipulación.
+7.	Norma KPI-07: Las metas deberán revisarse anualmente o cuando cambie el tamaño de operación, tecnología, estrategia, riesgo o regulación.
+8.	Norma KPI-08: Los reportes ejecutivos deberán mostrar tendencia, comparación contra meta, principales desviaciones, riesgos y acciones correctivas.
+CAPÍTULO 14. Matrices
+Matriz	Uso	Campos mínimos
+RACI	Asignar responsabilidades.	Actividad, responsable, aprobador, consultado, informado.
+Riesgos	Gestionar riesgos empresariales.	Riesgo, causa, consecuencia, impacto, probabilidad, controles, dueño, tratamiento.
+Impacto y probabilidad	Priorizar riesgos.	Escala 1 a 5, criterios financieros, legales, operativos, reputacionales y tecnológicos.
+Activos	Clasificar activos críticos.	Activo, propietario, ubicación, criticidad, clasificación, controles, respaldo.
+Información	Definir controles por tipo de información.	Tipo de dato, clasificación, finalidad, retención, acceso, cifrado, eliminación.
+1.	Norma MAT-01: La matriz RACI deberá identificar responsable, aprobador, consultado e informado para procesos, controles, decisiones, reportes y actividades críticas.
+2.	Norma MAT-02: La matriz de riesgos deberá contener identificación, causa, consecuencia, impacto, probabilidad, controles existentes, riesgo inherente, riesgo residual, dueño y tratamiento.
+3.	Norma MAT-03: La escala de impacto deberá considerar dimensiones financiera, operativa, legal, reputacional, tecnológica, seguridad, cliente y continuidad.
+4.	Norma MAT-04: La escala de probabilidad deberá considerar frecuencia histórica, exposición, complejidad, controles existentes, dependencia de terceros y cambios del entorno.
+5.	Norma MAT-05: La matriz de activos deberá incluir propietario, custodio, ubicación, criticidad, clasificación, dependencia, respaldo, controles y estado de vida útil.
+6.	Norma MAT-06: La matriz de información deberá relacionar tipo de dato, finalidad, base de tratamiento, clasificación, retención, acceso, cifrado, transferencia y eliminación.
+7.	Norma MAT-07: Las matrices deberán actualizarse cuando existan cambios de proceso, sistema, proveedor, estructura organizacional, regulación o incidente relevante.
+8.	Norma MAT-08: Las matrices deberán conservar histórico de versiones para permitir auditoría, comparación y trazabilidad de cambios.
+Disposiciones finales
+Anexo A. Glosario ampliado para consultas del LLM
+Glosario. Apetito de riesgo: nivel de riesgo que RetailPro acepta para cumplir sus objetivos. RTO: tiempo máximo tolerable para recuperar un servicio. RPO: punto máximo de pérdida de datos aceptable. MFA: autenticación multifactor. PAM: gestión de accesos privilegiados. DLP: prevención de fuga de información. EDR: detección y respuesta en endpoints. CAB: comité asesor de cambios. RFC: solicitud formal de cambio. BCP: plan de continuidad del negocio. DRP: plan de recuperación ante desastres. SLA: acuerdo de nivel de servicio. KRI: indicador clave de riesgo. KPI: indicador clave de desempeño. Due diligence: evaluación previa de riesgos antes de contratar o vincular un tercero.
+El presente marco normativo deberá revisarse al menos una vez al año o cuando existan cambios legales, tecnológicos, organizacionales, regulatorios, de riesgo o de operación. Toda excepción deberá ser documentada, justificada, aprobada por la autoridad competente y tener fecha de vencimiento. El incumplimiento de este marco podrá generar acciones disciplinarias, contractuales, civiles, administrativas o penales según corresponda.
+

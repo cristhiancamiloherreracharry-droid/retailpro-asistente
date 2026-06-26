@@ -28,7 +28,10 @@ col1, col2 = st.columns([1, 1])
 
 with col1:
     st.subheader("📄 Marco Normativo")
-    st.text_area("Fuente de verdad:", value=documento, height=600)
+    # El contenedor mantiene el tamaño fijo de 600px con scroll
+    with st.container(height=600, border=True):
+        # st.markdown es el motor que renderiza las negritas, tablas y títulos
+        st.markdown(documento)
 
 with col2:
     st.subheader("🤖 Chat Legal")

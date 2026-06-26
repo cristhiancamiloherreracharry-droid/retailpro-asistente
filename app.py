@@ -50,7 +50,14 @@ if GOOGLE_API_KEY:
         st.warning(f"Fallo al configurar la API: {e}")
 else:
     st.info("No hay GOOGLE_API_KEY en variables de entorno. El modelo no estará disponible.")
+st.write("Antes de crear la interfaz")
 
+try:
+    st.write(col1)
+except NameError:
+    st.error("col1 NO existe")
+    st.stop()
+    
 # Uso seguro de las columnas
 with col1:
     st.subheader("📄 Marco Normativo")

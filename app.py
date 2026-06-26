@@ -42,5 +42,3 @@ with col2:
     if prompt := st.chat_input("Consulta aquí:"):
         st.session_state.mensajes.append({"rol": "user", "contenido": prompt})
         with st.chat_message("user"): st.markdown(prompt)
-        with st.chat_message("assistant"):
-

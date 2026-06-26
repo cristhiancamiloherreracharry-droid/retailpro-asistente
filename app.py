@@ -6,13 +6,14 @@ import google.generativeai as genai
 
 st.set_page_config(page_title="Asistente Ejecutivo RetailPro", layout="wide")
 
-# Crear columnas primero para evitar NameError si algo falla después
+# Crear columnas
+col1 = st.container()
+col2 = st.container()
+
 try:
     col1, col2 = st.columns([1, 1])
 except Exception as e:
     st.error(f"Error creando columnas: {e}")
-    col1 = st.container()
-    col2 = st.container()
 
 # Cargar CSS (sin usar __file__)
 def aplicar_estilos():

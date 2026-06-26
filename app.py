@@ -5,7 +5,7 @@ import google.generativeai as genai
 st.set_page_config(page_title="Asistente Ejecutivo RetailPro", layout="wide")
 
 # Tu API KEY configurada
-GOOGLE_API_KEY = "AQ.Ab8RN6IPy6WKUTcFmut8rJye-hjL-IJHuxl-y0dbvaitjwW4wQ"
+GOOGLE_API_KEY = "AIzaSyB1H--nWeVqnTninyrYSRrftA5bI2gnGr8"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # --- CARGA DE DOCUMENTO ---

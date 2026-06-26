@@ -49,7 +49,7 @@ st.title("⚖️ Asistente de Gobernanza RetailPro")
 # 1. Definir columnas PRIMERO
 col1, col2 = st.columns([1, 1])
 
-# 2. USAR COLUMNAS
+# 2. USAR COLUMNAS (ahora col1 y col2 ya existen en memoria)
 with col1:
     st.subheader("📄 Marco Normativo")
     with st.container(height=600, border=True):

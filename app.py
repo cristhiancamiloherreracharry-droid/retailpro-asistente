@@ -40,18 +40,16 @@ def cargar_y_parsear_marco(ruta="marco_legal.txt"):
         return {"Error": f"No se pudo leer/parcear el archivo: {e}"}
 
 capitulos_dict = cargar_y_parsear_marco()
+# API Key (solo para pruebas)
+GOOGLE_API_KEY = "AQ.Ab8RN6IPy6WKUTcFmut8rJye-hjL-IJHuxl-y0dbvaitjwW4wQ"
 
-# Configurar API con variable de entorno y manejo de errores
-GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY", "")
-if GOOGLE_API_KEY:
-    try:
-        genai.configure(api_key=GOOGLE_API_KEY)
-    except Exception as e:
-        st.warning(f"Fallo al configurar la API: {e}")
-else:
-    st.info("No hay GOOGLE_API_KEY en variables de entorno. El modelo no estará disponible.")
-st.write("Antes de crear la interfaz")
-
+try:
+    genai.configure(api_key=GOOGLE_API_KEY)
+    modelo = genai.GenerativeModel("gemini-2.5-flash")
+    st.success("✅ Gemini configurado correctamente.")
+except Exception as e:
+    st.error(f"❌ Error configurando Gemini: {e}")
+    st.stop()
 
 # Uso seguro de las columnas
 with col1:

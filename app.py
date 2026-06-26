@@ -6,7 +6,7 @@ st.set_page_config(page_title="Asistente de Gobernanza RetailPro", layout="wide"
 
 # --- 2. CONFIGURACIÓN DE LA API DE GOOGLE ---
 # Reemplaza 'TU_API_KEY' con tu clave real de Google AI Studio
-GOOGLE_API_KEY = "TU_API_KEY"
+GOOGLE_API_KEY = "AQ.Ab8RN6IPy6WKUTcFmut8rJye-hjL-IJHuxl-y0dbvaitjwW4wQ"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # --- 3. BASE DE CONOCIMIENTO (SYSTEM PROMPT) ---

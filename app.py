@@ -19,6 +19,12 @@ def cargar_css():
 cargar_css()
 
 # --- 2. CONFIGURACIÓN DE IA ---
+try:
+    GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
+except KeyError:
+    st.error("⚠️ Falta configurar GOOGLE_API_KEY en los Secrets de Streamlit.")
+    st.stop()
+    
 genai.configure(api_key=GOOGLE_API_KEY)
 
 def cargar_y_parsear_marco():

@@ -20,7 +20,7 @@ documento = cargar_marco()
 
 # --- LÓGICA IA ---
 instrucciones = f"Eres el Asistente Ejecutivo de RetailPro. Marco normativo: {documento}. Reglas: Responde solo basado en este documento."
-model = genai.GenerativeModel("gemini-1.5-flash", system_instruction=instrucciones)
+model = genai.GenerativeModel("gemini-2.5-flash", system_instruction=instrucciones)
 
 # --- UI ---
 st.title("⚖️ Asistente de Gobernanza RetailPro")

@@ -17,7 +17,6 @@ def aplicar_estilos():
 aplicar_estilos()
 
 # --- CONFIGURACIÓN DE IA ---
-# Usa tu clave API activa
 GOOGLE_API_KEY = "AIzaSyB1H--nWeVqnTninyrYSRrftA5bI2gnGr8"
 genai.configure(api_key=GOOGLE_API_KEY)
 
@@ -25,7 +24,6 @@ def cargar_y_parsear_marco():
     try:
         with open("marco_legal.txt", "r", encoding="utf-8") as f:
             contenido = f.read()
-        # Divide el contenido usando títulos Markdown empezando con #
         partes = re.split(r'(^# .+)', contenido, flags=re.MULTILINE)
         capitulos = {}
         for i in range(1, len(partes), 2):
@@ -34,7 +32,7 @@ def cargar_y_parsear_marco():
             capitulos[titulo] = contenido_cap
         return capitulos
     except:
-        return {"Error": "No se pudo cargar el marco legal. Verifica el archivo .txt"}
+        return {"Error": "No se pudo cargar el marco legal."}
 
 capitulos_dict = cargar_y_parsear_marco()
 documento_completo = "\n".join([f"{t}\n{c}" for t, c in capitulos_dict.items()])
@@ -43,13 +41,13 @@ documento_completo = "\n".join([f"{t}\n{c}" for t, c in capitulos_dict.items()])
 instrucciones = f"Eres el Asistente Ejecutivo de RetailPro. Marco normativo: {documento_completo}. Responde basado estrictamente en este documento."
 model = genai.GenerativeModel("gemini-1.5-flash", system_instruction=instrucciones)
 
-# --- UI (EL ORDEN AQUÍ ES CRÍTICO) ---
+# --- UI ---
 st.title("⚖️ Asistente de Gobernanza RetailPro")
 
-# 1. Definir columnas PRIMERO
+# 1. Definición obligatoria de columnas antes de usarlas
 col1, col2 = st.columns([1, 1])
 
-# 2. USAR COLUMNAS (ahora col1 y col2 ya existen en memoria)
+# 2. Uso de las columnas definidas
 with col1:
     st.subheader("📄 Marco Normativo")
     with st.container(height=600, border=True):
@@ -69,7 +67,6 @@ with col2:
             with st.chat_message(m["rol"]): 
                 st.markdown(m["contenido"])
     
-    # Sugerencias rápidas
     st.caption("💡 Sugerencias:")
     c1, c2, c3 = st.columns(3)
     prompt_sugerido = None

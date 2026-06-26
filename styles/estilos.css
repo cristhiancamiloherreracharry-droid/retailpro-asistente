@@ -1,0 +1,26 @@
+/* estilos.css - Especificación técnica del prototipo Figma */
+.stApp {
+    background-color: #f0f2f6;
+}
+
+/* Contenedor del Marco Normativo - Estilo Figma */
+div[data-testid="stContainer"] {
+    border: 1px solid #e1e4e8;
+    border-radius: 12px;
+    background-color: #ffffff;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Botón principal - Color corporativo */
+button[kind="primary"] {
+    background-color: #2563eb !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+}
+
+/* Tipografía */
+h1, h2, h3 {
+    font-family: 'Inter', sans-serif;
+    color: #1e293b;
+}

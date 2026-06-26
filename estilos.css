@@ -1,0 +1,56 @@
+/* Importar fuente Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.stApp {
+    background-color: #F8FAFC;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Header Principal */
+.main-header {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #E2E8F0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Contenedores tipo Card */
+.custom-card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #E2E8F0;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+/* Cabeceras de las columnas */
+.card-header-blue {
+    background: linear-gradient(90deg, #2563EB 0%, #3B82F6 100%);
+    color: white;
+    padding: 15px 20px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.card-header-purple {
+    background: linear-gradient(90deg, #7C3AED 0%, #A855F7 100%);
+    color: white;
+    padding: 15px 20px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+/* Estilo para los mensajes del chat */
+.stChatMessage {
+    background-color: #F1F5F9 !important;
+    border-radius: 12px !important;
+    border: none !important;
+}
+
+/* Ajustar inputs */
+.stChatInputContainer {
+    padding-bottom: 20px !important;
+}

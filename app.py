@@ -5,9 +5,15 @@ import google.generativeai as genai
 st.set_page_config(page_title="RetailPro - Asistente Legal", layout="wide")
 
 # Aplicar CSS
+# --- CARGA DE ESTILOS CSS ---
 def aplicar_estilos():
-    with open("estilos.css", "r") as f:
-        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+    directorio_actual = os.path.dirname(os.path.abspath(__file__))
+    ruta_css = os.path.join(directorio_actual, "estilos.css")
+    if os.path.exists(ruta_css):
+        with open(ruta_css, "r") as f:
+            st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+    else:
+        st.warning(f"Archivo de estilos no encontrado en: {ruta_css}")
 
 aplicar_estilos()
 

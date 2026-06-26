@@ -49,7 +49,7 @@ capitulos_dict, documento_completo = cargar_y_parsear_marco()
 
 # --- LÓGICA IA ---
 instrucciones = f"Eres el Asistente Ejecutivo de RetailPro. Marco normativo: {documento_completo}. Responde basado estrictamente en este documento."
-model = genai.GenerativeModel("gemini-1.5-flash", system_instruction=instrucciones)
+model = genai.GenerativeModel("gemini-2.5-flash", system_instruction=instrucciones)
 
 # --- 3. UI PRINCIPAL ---
 st.title("⚖️ Asistente de Gobernanza RetailPro")

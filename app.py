@@ -43,9 +43,4 @@ with col2:
         st.session_state.mensajes.append({"rol": "user", "contenido": prompt})
         with st.chat_message("user"): st.markdown(prompt)
         with st.chat_message("assistant"):
-            try:
-                res = model.generate_content(prompt).text
-                st.markdown(res)
-                st.session_state.mensajes.append({"rol": "assistant", "contenido": res})
-            except Exception as e:
-                st.error("Error al consultar la IA. Verifica que tu API Key sea válida.")
+

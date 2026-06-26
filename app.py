@@ -2,6 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 import os
 import re
+import traceback
 
 # --- CONFIGURACIÓN DE PÁGINA ---
 st.set_page_config(page_title="Asistente Ejecutivo RetailPro", layout="wide", page_icon="⚖️")

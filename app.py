@@ -17,7 +17,7 @@ def cargar_css():
 cargar_css()
 
 # --- CONFIGURACIÓN DE IA ---
-GOOGLE_API_KEY = "AIzaSyBtPFRmk0FMwLrPIfsrkEEm5r3pCxOeKNc"
+GOOGLE_API_KEY = "AIzaSyB1H--nWeVqnTninyrYSRrftA5bI2gnGr8"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 def cargar_y_parsear_marco():

@@ -4,7 +4,6 @@ import google.generativeai as genai
 
 st.set_page_config(page_title="RetailPro - Asistente Legal", layout="wide")
 
-# Aplicar CSS
 # --- CARGA DE ESTILOS CSS ---
 def aplicar_estilos():
     directorio_actual = os.path.dirname(os.path.abspath(__file__))

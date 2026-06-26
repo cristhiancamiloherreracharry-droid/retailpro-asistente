@@ -36,48 +36,37 @@ with col1:
         st.error("Archivo 'marco_legal.txt' no encontrado.")
 
 with col2:
-    st.subheader("🤖 Chat Legal Interactivo")
+    st.subheader("🤖 Chat Legal")
     
-    # Inicializar historial
-    if "mensajes" not in st.session_state:
+    # 1. Renderizar historial
+    if "mensajes" not in st.session_state: 
         st.session_state.mensajes = []
-    
-    # Contenedor con scroll para el chat
-    contenedor_chat = st.container(height=480, border=True)
-    
-    with contenedor_chat:
-        for m in st.session_state.mensajes:
-            with st.chat_message(m["rol"]):
-                st.markdown(m["contenido"])
-    
-    # Botones de sugerencia rápida
-    st.caption("💡 Sugerencias rápidas:")
-    c1, c2, c3 = st.columns(3)
-    prompt_sugerido = None
-    
-    if c1.button("⏱️ SLAs de PQR"): prompt_sugerido = "¿Cuáles son los tiempos máximos para PQR?"
-    if c2.button("🔐 Datos Sensibles"): prompt_sugerido = "¿Controles para datos sensibles?"
-    if c3.button("📝 Continuidad"): prompt_sugerido = "¿Reglas de continuidad del negocio?"
-    
-    # Input del chat
-    prompt_usuario = st.chat_input("Escribe tu pregunta sobre RetailPro...")
-    prompt_final = prompt_sugerido or prompt_usuario
-    
-    if prompt_final:
-        st.session_state.mensajes.append({"rol": "user", "contenido": prompt_final})
         
-        with contenedor_chat:
-            with st.chat_message("user"):
-                st.markdown(prompt_final)
-            
-            with st.chat_message("assistant"):
-                with st.spinner("Consultando marco normativo..."):
-                    try:
-                        respuesta = model.generate_content(prompt_final)
+    for m in st.session_state.mensajes:
+        with st.chat_message(m["rol"]): 
+            st.markdown(m["contenido"])
+    
+    # 2. Capturar input
+    prompt = st.chat_input("Consulta aquí:")
+    if prompt:
+        st.session_state.mensajes.append({"rol": "user", "contenido": prompt})
+        with st.chat_message("user"): 
+            st.markdown(prompt)
+        
+        # 3. Llamado a la IA con control de estado y spinner
+        with st.chat_message("assistant"):
+            with st.spinner("Conectando con el motor cognitivo..."):
+                try:
+                    respuesta = model.generate_content(prompt)
+                    
+                    # Validar si la IA devolvió una respuesta vacía o fue bloqueada
+                    if not respuesta.parts:
+                        st.error("La IA bloqueó la respuesta por sus filtros de seguridad internos.")
+                    else:
                         texto = respuesta.text
                         st.markdown(texto)
                         st.session_state.mensajes.append({"rol": "assistant", "contenido": texto})
-                    except Exception as e:
-                        st.error(f"Error técnico: {e}")
-        
-        st.rerun()
+                        
+                except Exception as e:
+                    # Forzamos la impresión del error exacto en la UI
+                    st.error(f"Falla en la API: {type(e).__name__} - {e}")
